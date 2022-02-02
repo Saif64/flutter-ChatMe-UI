@@ -1,7 +1,7 @@
 import 'package:chat_me/models/message_model.dart';
-import 'package:chat_me/screens/detail/widgets/contact_info.dart';
-import 'package:chat_me/screens/detail/widgets/detail_app_bar.dart';
-import 'package:chat_me/screens/detail/widgets/detail_message.dart';
+import 'package:chat_me/screens/chatList/widgets/contact_info.dart';
+import 'package:chat_me/screens/chatList/widgets/detail_app_bar.dart';
+import 'package:chat_me/screens/chatList/widgets/detail_message.dart';
 import 'package:flutter/material.dart';
 
 class DetailPage extends StatelessWidget {
