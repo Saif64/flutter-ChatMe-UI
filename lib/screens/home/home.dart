@@ -14,13 +14,26 @@ class HomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: EdgeInsets.only(left: 25),
-              child: Text(
-                'Chat With\nyour friends',
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                    fontSize: 25),
+              padding: EdgeInsets.only(left: 25, right: 15),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Chat With\nyour friends',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 25),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle, color: Colors.white),
+                    child: Image.asset(
+                      'assets/images/user0.png',
+                      width: 40,
+                    ),
+                  )
+                ],
               ),
             ),
             RecentContacts(),
